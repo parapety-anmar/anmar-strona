@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 import ArrowDownIcon from "../utils/ArrowDownIcon";
 import Gallery from "./Gallery";
@@ -42,7 +43,12 @@ export default function Realizations() {
     >
       <div className="px-4 py-6 flex items-center justify-between bg-white shadow-lg rounded-lg">
         <h2 className="hidden sm:flex sm:items-center">
-          <img src="/icons/realizacje.png" alt="Ikona Realizacje" />
+          <Image
+            src="/icons/realizacje.png"
+            alt="Ikona Realizacje"
+            width={32}
+            height={32}
+          />
           <span className="ml-2 text-md sm:text-2xl text-red-600">
             Realizacje
           </span>

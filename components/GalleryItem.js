@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 export default function GalleryItem({ alt, src, index, openGallery }) {
   const [isHovered, setIsHovered] = useState(false);
@@ -10,10 +11,11 @@ export default function GalleryItem({ alt, src, index, openGallery }) {
       onMouseLeave={() => setIsHovered(false)}
       onClick={() => openGallery(index)}
     >
-      <div className="overflow-hidden w-full h-full transition-transform ease-in-out delay-150">
-        <img
+      <div className="relative overflow-hidden w-full h-full transition-transform ease-in-out delay-150">
+        <Image
           src={src}
           alt={alt}
+          layout="fill"
           className={`w-full h-full transition-transform ease-in-out delay-75 ${
             isHovered ? "scale-125" : "scale-100"
           }`}

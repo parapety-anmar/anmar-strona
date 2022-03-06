@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import PhoneIcon from "../utils/PhoneIcon";
 import MailIcon from "../utils/MailIcon";
 import PinIcon from "../utils/PinIcon";
@@ -8,7 +10,12 @@ export default function Contact() {
       <div className="container max-w-xs md:max-w-2xl lg:max-w-6xl mx-auto flex items-center justify-between h-full">
         <div className="relative h-[350px] sm:h-[225px] w-full bg-white shadow-lg rounded-lg">
           <div className="absolute -top-8 left-0 bg-white p-4 text-red-600 shadow-md rounded-lg flex items-center">
-            <img src="/icons/kontakt.jpg" alt="Opinions Icon" />
+            <Image
+              src="/icons/kontakt.jpg"
+              alt="Opinions Icon"
+              width={32}
+              height={32}
+            />
             <span className="ml-2 text-2xl text-red-600">Kontakt</span>
           </div>
           <div className="flex h-full flex-col sm:flex-row">
@@ -35,12 +42,8 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="basis-3/5 p-2">
-              <img
-                src="/mapa.png"
-                alt="Location Map"
-                className="w-full h-full"
-              />
+            <div className="relative basis-3/5 p-2">
+              <Image src="/mapa.png" alt="Location Map" layout="fill" />
             </div>
           </div>
 

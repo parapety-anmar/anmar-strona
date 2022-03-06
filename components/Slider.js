@@ -22,12 +22,12 @@ export default function Slider() {
           resolve: arrowsPlugin,
           options: {
             arrowLeft: (
-              <button className="bg-white p-1 flex items-center justify-center rounded-full">
+              <button className="bg-white p-1 flex items-center justify-center rounded-full" aria-label="Poprzednia opinia">
                 <ArrowLeftIcon />
               </button>
             ),
             arrowRight: (
-              <button className="bg-white p-1 flex items-center justify-center rounded-full">
+              <button className="bg-white p-1 flex items-center justify-center rounded-full" aria-label="Następna opinia">
                 <ArrowRightIcon />
               </button>
             ),

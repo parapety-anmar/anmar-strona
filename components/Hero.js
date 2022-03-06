@@ -1,3 +1,4 @@
+import Image from "next/image";
 import FacebookLogo from "../utils/FacebookLogo";
 
 export default function Hero() {
@@ -7,7 +8,7 @@ export default function Hero() {
         <header className="relative lg:h-[750px] bg-red-600 lg:bg-transparent lg:bg-[url('/bg.png')] bg-cover bg-no-repeat bg-center">
           <div className="container max-w-xs md:max-w-2xl lg:max-w-5xl mx-auto flex justify-between items-center">
             <div>
-              <img src="/logo.png" alt="Logo" />
+              <Image src="/logo.png" alt="Logo" width={200} height={100} />
             </div>
 
             <nav className="hidden lg:block">
@@ -50,7 +51,10 @@ export default function Hero() {
           </ul>
           <div className="mt-2 flex items-center text-gray-500">
             Nasze social media:
-            <a href="https://www.facebook.com/An-Mar-Parapety-112282037955184/?ref=pages_you_manage">
+            <a
+              href="https://www.facebook.com/An-Mar-Parapety-112282037955184/?ref=pages_you_manage"
+              aria-label="Facebook"
+            >
               <FacebookLogo />
             </a>
           </div>
