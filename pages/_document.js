@@ -12,13 +12,12 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="Produkcja i sprzedaż parapetów zewnętrznych,parapetów wewnętrznych oraz okien. Zapraszamy do zapoznania się z naszą ofertą."
+            content="Parapety Anmar. Produkcja i sprzedaż parapetów zewnętrznych,parapetów wewnętrznych oraz okien. Zapraszamy do zapoznania się z naszą ofertą."
           />
           <meta
             name="keywords"
-            content="Parapety, okna, konglomerat, marmur, Parapety zewnetrzne, Parapety wewnetrzne, Olsztynek, Sprzedaż, Produkcja, granit, kwarc, MDF, PCV, ANMAR, AN-MAR"
+            content="anmar, an-mar, ANMAR, AN-MAR, parapety, okna, konglomerat, marmur, zewnetrzne, wewnetrzne, olsztynek, sprzedaż, produkcja, granit, kwarc, mdf, pcv"
           />
-          <title>An-mar Parapety</title>
           <link rel="icon" href="/favicon.ico?v=3" />
         </Head>
         <body id="home">
