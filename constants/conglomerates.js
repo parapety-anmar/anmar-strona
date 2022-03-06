@@ -79,117 +79,117 @@ export const steelConglomerate = [
     alt: "Standard RAL 8019",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (1).png",
+    src: "/steel-conglomerat/platinum-designify(1).png",
     alt: "Standard Wenge",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (2).png",
+    src: "/steel-conglomerat/platinum-designify(2).png",
     alt: "Standard RAL 8004",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (3).png",
+    src: "/steel-conglomerat/platinum-designify(3).png",
     alt: "Standard Biały",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (4).png",
+    src: "/steel-conglomerat/platinum-designify(4).png",
     alt: "Softline Winchester",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (5).png",
+    src: "/steel-conglomerat/platinum-designify(5).png",
     alt: "Standard RAL 7016",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (6).png",
+    src: "/steel-conglomerat/platinum-designify(6).png",
     alt: "Standard RAL 7024",
   },
   {
-    src: "/steel-conglomerat/platinum-designify (7).png",
+    src: "/steel-conglomerat/platinum-designify(7).png",
     alt: "Standard RAL 9005",
   },
 ];
 
 export const synteticConglomerate = [
   {
-    src: "/syntetic-conglomerat/platinum-designify (2).png",
+    src: "/syntetic-conglomerat/platinum-designify(2).png",
     alt: "G1",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (15).png",
+    src: "/syntetic-conglomerat/platinum-designify(15).png",
     alt: "G7",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (16).png",
+    src: "/syntetic-conglomerat/platinum-designify(16).png",
     alt: "G13",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (17).png",
+    src: "/syntetic-conglomerat/platinum-designify(17).png",
     alt: "G11",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (18).png",
+    src: "/syntetic-conglomerat/platinum-designify(18).png",
     alt: "NB2",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (19).png",
+    src: "/syntetic-conglomerat/platinum-designify(19).png",
     alt: "NB1",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (20).png",
+    src: "/syntetic-conglomerat/platinum-designify(20).png",
     alt: "NB3",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (22).png",
+    src: "/syntetic-conglomerat/platinum-designify(22).png",
     alt: "B0",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (23).png",
+    src: "/syntetic-conglomerat/platinum-designify(23).png",
     alt: "G12",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (24).png",
+    src: "/syntetic-conglomerat/platinum-designify(24).png",
     alt: "G5",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (25).png",
+    src: "/syntetic-conglomerat/platinum-designify(25).png",
     alt: "G9",
   },
   {
-    src: "/syntetic-conglomerat/platinum-designify (26).png",
+    src: "/syntetic-conglomerat/platinum-designify(26).png",
     alt: "G17",
   },
 ];
 
 export const aluminiumConglomerate = [
   {
-    src: "/aluminium-conglomerat/platinum-designify (33).png",
+    src: "/aluminium-conglomerat/platinum-designify(33).png",
     alt: "Miedź Antyczna",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (34).png",
+    src: "/aluminium-conglomerat/platinum-designify(34).png",
     alt: "Softline Miedź Antyczna",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (35).png",
+    src: "/aluminium-conglomerat/platinum-designify(35).png",
     alt: "Biały 9016",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (36).png",
+    src: "/aluminium-conglomerat/platinum-designify(36).png",
     alt: "Softline RAL 9016",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (37).png",
+    src: "/aluminium-conglomerat/platinum-designify(37).png",
     alt: "Standard RAL 7016",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (38).png",
+    src: "/aluminium-conglomerat/platinum-designify(38).png",
     alt: "Ideal Antracyt Antyczny",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (39).png",
+    src: "/aluminium-conglomerat/platinum-designify(39).png",
     alt: "Standard RAL 8019",
   },
   {
-    src: "/aluminium-conglomerat/platinum-designify (40).png",
+    src: "/aluminium-conglomerat/platinum-designify(40).png",
     alt: "Softline Antracyt Antyczny",
   },
 ];
