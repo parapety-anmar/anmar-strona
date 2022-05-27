@@ -37,7 +37,7 @@ export default function Contact() {
                   <span className="text-red-600 mr-2">
                     <PinIcon />
                   </span>
-                  <span>Mierki 15, 11-015 Olsztynek</span>
+                  <span>Fermowa 2, 11-034 Stawiguda</span>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="https://goo.gl/maps/dt5eMabCYqTBtqQ46"
+            href="https://goo.gl/maps/C2fiwZFKZC1UGprJ6"
             className="absolute -bottom-4 left-[50%] translate-x-[-50%] sm:left-[30%] bg-red-600 hover:bg-red-500 uppercase px-8 py-3 text-white font-medium whitespace-nowrap"
           >
             Jak Dojechać &#187;
