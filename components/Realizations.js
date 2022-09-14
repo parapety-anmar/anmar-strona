@@ -63,24 +63,24 @@ export default function Realizations() {
         <div className="flex items-center gap-6">
           <button
             className={`${
-              activeType === "outer" ? activeButtonStyle : notActiveButtonStyle
-            }`}
-            onClick={() => setActiveType("outer")}
-          >
-            Parapety zewnętrzne
-          </button>
-          <button
-            className={`${
               activeType === "inner" ? activeButtonStyle : notActiveButtonStyle
             }`}
             onClick={() => setActiveType("inner")}
           >
             Parapety wewnętrzne
           </button>
+          <button
+            className={`${
+              activeType === "outer" ? activeButtonStyle : notActiveButtonStyle
+            }`}
+            onClick={() => setActiveType("outer")}
+          >
+            Parapety zewnętrzne
+          </button>
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center my-4 mt-8 gap-6 px-4 py-6">
+      <div className="flex flex-wrap justify-start my-4 mt-8 gap-6 px-4 py-6">
         {activeType === "inner" ? (
           <>
             <h3

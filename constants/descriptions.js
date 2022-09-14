@@ -167,8 +167,9 @@ export const SynteticConglomeratStraightFinishDescription = () => (
       <li>
         Niewątpliwą zaletą parapetów z marmuru syntetycznego jest odporność na
         ścieranie, niska nasiąkliwość wagowa oraz możliwość cięcia i wiercenia
-        otworów. Wyróżniają się zakończeniem prostym.
+        otworów.
       </li>
+      <li>Wyróżniają się zakończeniem prostym.</li>
     </ul>
   </>
 );

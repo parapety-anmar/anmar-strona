@@ -42,7 +42,7 @@ export default function Slider() {
         },
       ]}
     >
-      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2 py-3">
+      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2">
         <h3 className="text-lg sm:text-xl text-gray-600 font-semibold mb-1">
           Ewa Paszczyńska
         </h3>
@@ -50,7 +50,7 @@ export default function Slider() {
           Polecam, współpracujemy i jesteśmy bardzo zadowoleni
         </p>
       </div>
-      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2 py-3">
+      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2">
         <h3 className="text-xl text-gray-600 font-semibold mb-1">
           Marcin Kohler
         </h3>
@@ -58,7 +58,7 @@ export default function Slider() {
           Pełen profesjonalizm i super jakość. Polecam
         </p>
       </div>
-      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2 py-3">
+      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2">
         <h3 className="text-xl text-gray-600 font-semibold mb-1">
           Arkadiusz Kowalczyk
         </h3>
@@ -67,7 +67,7 @@ export default function Slider() {
           szybki czas realizacji
         </p>
       </div>
-      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2 py-3">
+      <div className="w-5/6 h-[125px] bg-white rounded-lg p-2">
         <h3 className="text-xl text-gray-600 font-semibold mb-1">
           Piotr Woźniak
         </h3>
