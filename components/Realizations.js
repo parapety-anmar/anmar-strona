@@ -20,7 +20,7 @@ const notActiveButtonStyle =
 
 export default function Realizations() {
   const [galleryData, setGalleryData] = useState(steelConglomerate);
-  const [activeType, setActiveType] = useState("outer");
+  const [activeType, setActiveType] = useState("inner");
   const [activeOuterConglomerat, setActiveOuterConglomerat] = useState("steel");
   const [activeInnerConglomerat, setActiveInnerConglomerat] =
     useState("syntetic");
