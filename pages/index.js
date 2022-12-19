@@ -4,6 +4,7 @@ import Realizations from "../components/Realizations";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Head from "next/head";
+import GetInTouch from "../components/GetInTouch";
 
 export default function IndexPage() {
   return (
@@ -16,6 +17,7 @@ export default function IndexPage() {
         <Realizations />
         <Testimonials />
         <Contact />
+        <GetInTouch />
       </Layout>
     </>
   );
