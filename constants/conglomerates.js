@@ -212,3 +212,101 @@ export const synteticConglomerateStraightFinish = [
     alt: "NB3",
   },
 ];
+
+export const varnishedConglomerate = [
+  {
+    src: "/varnished-conglomerat/Resize_lakierBialyMat.webp",
+    alt: "Lakierowany Biały Mat",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierBialyPolysk.webp",
+    alt: "Lakierowany Biały Połysk",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierBialyWysokiPolysk.webp",
+    alt: "Lakierowany Biały Wysoki Połysk",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierDabNaturalny.webp",
+    alt: "Lakierowany Dąb Naturalny",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierDabOrzech.webp",
+    alt: "Lakierowany Dąb Orzech",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierDabWinchester.webp",
+    alt: "Lakierowany Dąb Winchester",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierDabZloty.webp",
+    alt: "Lakierowany Dąb Złoty",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierMarmurekBialy.webp",
+    alt: "Lakierowany Marmurek Biały",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierPerlaLuska.webp",
+    alt: "Lakierowany Perła Łuska",
+  },
+  {
+    src: "/varnished-conglomerat/Resize_lakierRal7016Polmat.webp",
+    alt: "Lakierowany RAL 7016 Półmat",
+  },
+];
+
+export const laminateConglomerate = [
+  {
+    src: "/laminate-conglomerat/Resize_laminatAntracyt.webp",
+    alt: "Laminat Antracyt",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatBeton.webp",
+    alt: "Laminat Beton",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatBialeDrewno.webp",
+    alt: "Laminat Białe Drewno",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatBialyGladki.webp",
+    alt: "Laminat Biały Gładki",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatGranit.webp",
+    alt: "Laminat Granit",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatJablon.webp",
+    alt: "Laminat Jabłoń",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatJasnyDab.webp",
+    alt: "Laminat Jasny Dąb",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatMarmurCiemny.webp",
+    alt: "Laminat Marmur Ciemny",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatMarmurJasny.webp",
+    alt: "Laminat Marmur Jasny",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatOrzech.webp",
+    alt: "Laminat Orzech",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatSonoma.webp",
+    alt: "Laminat Sonoma",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatWinchesterAmandi.webp",
+    alt: "Laminat Winchester Amandi ",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatZlotyDab.webp",
+    alt: "Laminat Złoty Dąb",
+  },
+];
