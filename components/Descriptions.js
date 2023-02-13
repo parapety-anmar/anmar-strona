@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import {
-  SteelConglomeratDescription,
   AluminiumConglomeratDescription,
-  SynteticConglomeratDescription,
   MarbleConglomeratDescription,
+  MdfConglomeratDescription,
+  ShorterMarbleConglomeratDescription,
   ShorterSteelConglomeratDescription,
   ShorterSynteticConglomeratDescription,
-  ShorterMarbleConglomeratDescription,
-  SynteticConglomeratStraightFinishDescription,
   ShorterSynteticConglomeratStraightFinishDescription,
+  SteelConglomeratDescription,
+  SynteticConglomeratDescription,
+  SynteticConglomeratStraightFinishDescription,
 } from "../constants/descriptions";
 
 const Descriptions = ({
@@ -33,6 +34,11 @@ const Descriptions = ({
           return <ShorterSynteticConglomeratDescription />;
         else if (activeInnerConglomerat === "marble")
           return <ShorterMarbleConglomeratDescription />;
+        else if (
+          activeInnerConglomerat === "mdfLaminate" ||
+          activeInnerConglomerat === "mdfVarnished"
+        )
+          return <MdfConglomeratDescription />;
         else return <ShorterSynteticConglomeratStraightFinishDescription />;
       } else return null;
     } else {
@@ -45,6 +51,11 @@ const Descriptions = ({
           return <SynteticConglomeratDescription />;
         else if (activeInnerConglomerat === "marble")
           return <MarbleConglomeratDescription />;
+        else if (
+          activeInnerConglomerat === "mdfLaminate" ||
+          activeInnerConglomerat === "mdfVarnished"
+        )
+          return <MdfConglomeratDescription />;
         else return <SynteticConglomeratStraightFinishDescription />;
       }
     }

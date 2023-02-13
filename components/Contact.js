@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import PhoneIcon from "../utils/PhoneIcon";
 import MailIcon from "../utils/MailIcon";
+import PhoneIcon from "../utils/PhoneIcon";
 import PinIcon from "../utils/PinIcon";
 
 export default function Contact() {

@@ -1,6 +1,6 @@
 import Carousel, {
-  slidesToShowPlugin,
   arrowsPlugin,
+  slidesToShowPlugin,
 } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 

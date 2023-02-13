@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import Lightbox from "react-image-lightbox";
 import GalleryItem from "./GalleryItem";
 

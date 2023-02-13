@@ -1,16 +1,18 @@
-import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
+import Descriptions from "../components/Descriptions";
 import ArrowDownIcon from "../utils/ArrowDownIcon";
 import Gallery from "./Gallery";
-import Descriptions from "../components/Descriptions";
 
 import {
+  aluminiumConglomerate,
+  laminateConglomerate,
   marbledConglomerate,
   steelConglomerate,
   synteticConglomerate,
-  aluminiumConglomerate,
   synteticConglomerateStraightFinish,
+  varnishedConglomerate,
 } from "../constants/conglomerates";
 
 const activeButtonStyle =
@@ -37,6 +39,10 @@ export default function Realizations() {
         setGalleryData(synteticConglomerate);
       } else if (activeInnerConglomerat === "marble") {
         setGalleryData(marbledConglomerate);
+      } else if (activeInnerConglomerat === "mdfVarnished") {
+        setGalleryData(varnishedConglomerate);
+      } else if (activeInnerConglomerat === "mdfLaminate") {
+        setGalleryData(laminateConglomerate);
       } else {
         setGalleryData(synteticConglomerateStraightFinish);
       }
@@ -157,6 +163,56 @@ export default function Realizations() {
                 }`}
               >
                 Parapety z konglomeratu marmurowego
+              </span>
+            </h3>
+            <h3
+              className={`border px-2 py-4 rounded-md flex items-center gap-2 cursor-pointer text-sm sm:text-md basis-60 ${
+                activeInnerConglomerat === "mdfVarnished"
+                  ? "border-red-600"
+                  : "border-gray-200"
+              }`}
+              onClick={() => setActiveInnerConglomerat("mdfVarnished")}
+            >
+              <span
+                className={`hidden sm:block shrink-0 ${
+                  activeInnerConglomerat === "marble" && "text-red-600"
+                }`}
+              >
+                <ArrowDownIcon />
+              </span>
+              <span
+                className={`${
+                  activeInnerConglomerat === "mdfVarnished"
+                    ? "uppercase text-red-600"
+                    : "uppercase text-gray-600"
+                }`}
+              >
+                Parapety MDF - Lakierowane
+              </span>
+            </h3>
+            <h3
+              className={`border px-2 py-4 rounded-md flex items-center gap-2 cursor-pointer text-sm sm:text-md basis-60 ${
+                activeInnerConglomerat === "mdfLaminate"
+                  ? "border-red-600"
+                  : "border-gray-200"
+              }`}
+              onClick={() => setActiveInnerConglomerat("mdfLaminate")}
+            >
+              <span
+                className={`hidden sm:block shrink-0 ${
+                  activeInnerConglomerat === "mdfLaminate" && "text-red-600"
+                }`}
+              >
+                <ArrowDownIcon />
+              </span>
+              <span
+                className={`${
+                  activeInnerConglomerat === "mdfLaminate"
+                    ? "uppercase text-red-600"
+                    : "uppercase text-gray-600"
+                }`}
+              >
+                Parapety MDF - Laminat
               </span>
             </h3>
           </>

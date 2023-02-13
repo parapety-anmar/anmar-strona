@@ -1,5 +1,5 @@
-import Image from "next/image";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const Slider = dynamic(() => import("../components/Slider"), { ssr: false });
 

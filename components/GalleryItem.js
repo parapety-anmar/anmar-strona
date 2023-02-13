@@ -1,5 +1,5 @@
-import { useState } from "react";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function GalleryItem({ alt, src, index, openGallery }) {
   const [isHovered, setIsHovered] = useState(false);

@@ -258,12 +258,28 @@ export const varnishedConglomerate = [
 
 export const laminateConglomerate = [
   {
-    src: "/laminate-conglomerat/Resize_laminatAntracyt.webp",
-    alt: "Laminat Antracyt",
+    src: "/laminate-conglomerat/Resize_laminatGranit.webp",
+    alt: "Laminat Granit",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatMarmurJasny.webp",
+    alt: "Laminat Marmur Jasny",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatMarmurCiemny.webp",
+    alt: "Laminat Marmur Ciemny",
   },
   {
     src: "/laminate-conglomerat/Resize_laminatBeton.webp",
     alt: "Laminat Beton",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatJasnyDab.webp",
+    alt: "Laminat Jasny Dąb",
+  },
+  {
+    src: "/laminate-conglomerat/Resize_laminatAntracyt.webp",
+    alt: "Laminat Antracyt",
   },
   {
     src: "/laminate-conglomerat/Resize_laminatBialeDrewno.webp",
@@ -274,24 +290,8 @@ export const laminateConglomerate = [
     alt: "Laminat Biały Gładki",
   },
   {
-    src: "/laminate-conglomerat/Resize_laminatGranit.webp",
-    alt: "Laminat Granit",
-  },
-  {
     src: "/laminate-conglomerat/Resize_laminatJablon.webp",
     alt: "Laminat Jabłoń",
-  },
-  {
-    src: "/laminate-conglomerat/Resize_laminatJasnyDab.webp",
-    alt: "Laminat Jasny Dąb",
-  },
-  {
-    src: "/laminate-conglomerat/Resize_laminatMarmurCiemny.webp",
-    alt: "Laminat Marmur Ciemny",
-  },
-  {
-    src: "/laminate-conglomerat/Resize_laminatMarmurJasny.webp",
-    alt: "Laminat Marmur Jasny",
   },
   {
     src: "/laminate-conglomerat/Resize_laminatOrzech.webp",

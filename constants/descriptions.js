@@ -182,3 +182,19 @@ export const ShorterSynteticConglomeratStraightFinishDescription = () => (
     atrakcyjnych cen.
   </p>
 );
+
+export const MdfConglomeratDescription = () => (
+  <p
+    style={{
+      lineHeight: 1.5,
+    }}
+  >
+    Parapety MDF są to produkty drewnopodobne, które powstają poprzez
+    sprasowanie włókien drzewnych z dodatkiem związków organicznych. Łączone są
+    w warunkach wysokiego ciśnienia oraz temperatury. Do głównych zalet
+    parapetów MDF możemy zaliczyć dużą odporność na otarcia oraz wilgoć czy też
+    brak niedoskonałości takich jak sęki czy pęknięcia.
+  </p>
+);
+
+console.log;
