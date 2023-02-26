@@ -7,8 +7,10 @@ import Gallery from "./Gallery";
 
 import {
   aluminiumConglomerate,
+  externalSynteticConglomerate,
   laminateConglomerate,
   marbledConglomerate,
+  quartzGraniteConglomerate,
   steelConglomerate,
   synteticConglomerate,
   synteticConglomerateStraightFinish,
@@ -31,11 +33,15 @@ export default function Realizations() {
     if (activeType === "outer") {
       if (activeOuterConglomerat === "steel") {
         setGalleryData(steelConglomerate);
-      } else {
+      } else if (activeOuterConglomerat === "aluminium") {
         setGalleryData(aluminiumConglomerate);
+      } else {
+        setGalleryData(externalSynteticConglomerate);
       }
     } else {
-      if (activeInnerConglomerat === "syntetic") {
+      if (activeInnerConglomerat === "quartzGranite") {
+        setGalleryData(quartzGraniteConglomerate);
+      } else if (activeInnerConglomerat === "syntetic") {
         setGalleryData(synteticConglomerate);
       } else if (activeInnerConglomerat === "marble") {
         setGalleryData(marbledConglomerate);
@@ -112,6 +118,31 @@ export default function Realizations() {
                 }`}
               >
                 Parapety z konglomeratu syntetycznego
+              </span>
+            </h3>
+            <h3
+              className={`border px-2 py-4 rounded-md flex items-center gap-2 cursor-pointer text-sm sm:text-md basis-60 ${
+                activeInnerConglomerat === "quartzGranite"
+                  ? "border-red-600"
+                  : "border-gray-200"
+              }`}
+              onClick={() => setActiveInnerConglomerat("quartzGranite")}
+            >
+              <span
+                className={`hidden sm:block shrink-0 ${
+                  activeInnerConglomerat === "quartzGranite" && "text-red-600"
+                }`}
+              >
+                <ArrowDownIcon />
+              </span>
+              <span
+                className={`${
+                  activeInnerConglomerat === "quartzGranite"
+                    ? "uppercase text-red-600"
+                    : "uppercase text-gray-600"
+                }`}
+              >
+                Parapety kwarcowe & granitowe
               </span>
             </h3>
             <h3
@@ -266,6 +297,32 @@ export default function Realizations() {
                 }`}
               >
                 Parapety aluminiowe
+              </span>
+            </h3>
+            <h3
+              className={`border px-2 py-4 rounded-md flex items-center gap-2 cursor-pointer text-sm sm:text-md ${
+                activeOuterConglomerat === "externalSyntetic"
+                  ? "border-red-600"
+                  : "border-gray-200"
+              }`}
+              onClick={() => setActiveOuterConglomerat("externalSyntetic")}
+            >
+              <span
+                className={`hidden sm:block ${
+                  activeOuterConglomerat === "externalSyntetic" &&
+                  "text-red-600"
+                }`}
+              >
+                <ArrowDownIcon />
+              </span>
+              <span
+                className={`${
+                  activeOuterConglomerat === "externalSyntetic"
+                    ? "uppercase text-red-600"
+                    : "uppercase text-gray-600"
+                }`}
+              >
+                Parapety syntetyczne
               </span>
             </h3>
           </>

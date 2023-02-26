@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import {
   AluminiumConglomeratDescription,
+  ExternalSynteticConglomeratDescription,
   MarbleConglomeratDescription,
   MdfConglomeratDescription,
+  QuartzGraniteConglomeratDescription,
   ShorterMarbleConglomeratDescription,
   ShorterSteelConglomeratDescription,
   ShorterSynteticConglomeratDescription,
@@ -26,11 +28,15 @@ const Descriptions = ({
   const showDescription = () => {
     if (width < 1024) {
       if (activeType === "outer") {
-        if (activeOuterConglomerat === "steel")
+        if (activeOuterConglomerat === "externalSyntetic")
+          return <ExternalSynteticConglomeratDescription />;
+        else if (activeOuterConglomerat === "steel")
           return <ShorterSteelConglomeratDescription />;
         else return <AluminiumConglomeratDescription />;
       } else if (activeType === "inner") {
-        if (activeInnerConglomerat === "syntetic")
+        if (activeInnerConglomerat === "quartzGranite")
+          return <QuartzGraniteConglomeratDescription />;
+        else if (activeInnerConglomerat === "syntetic")
           return <ShorterSynteticConglomeratDescription />;
         else if (activeInnerConglomerat === "marble")
           return <ShorterMarbleConglomeratDescription />;
@@ -43,11 +49,15 @@ const Descriptions = ({
       } else return null;
     } else {
       if (activeType === "outer") {
-        if (activeOuterConglomerat === "steel")
+        if (activeOuterConglomerat === "externalSyntetic")
+          return <ExternalSynteticConglomeratDescription />;
+        else if (activeOuterConglomerat === "steel")
           return <SteelConglomeratDescription />;
         else return <AluminiumConglomeratDescription />;
       } else if ((activeType = "inner")) {
-        if (activeInnerConglomerat === "syntetic")
+        if (activeInnerConglomerat === "quartzGranite")
+          return <QuartzGraniteConglomeratDescription />;
+        else if (activeInnerConglomerat === "syntetic")
           return <SynteticConglomeratDescription />;
         else if (activeInnerConglomerat === "marble")
           return <MarbleConglomeratDescription />;

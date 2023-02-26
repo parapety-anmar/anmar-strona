@@ -197,4 +197,16 @@ export const MdfConglomeratDescription = () => (
   </p>
 );
 
-console.log;
+export const QuartzGraniteConglomeratDescription = () => (
+  <p
+    style={{
+      lineHeight: 1.5,
+    }}
+  >
+    Parapety kwarcowe oraz granitowe są bardzo trwałe oraz odporne na
+    zarysowania. Utrzymanie czystości na nich nie sprawia żadnego problemu.
+    Dzięki ciekawemu wzornictwu nadają one charakteru w aranżacji wnętrz.
+  </p>
+);
+
+export const ExternalSynteticConglomeratDescription = () => "";

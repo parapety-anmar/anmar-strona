@@ -1,67 +1,119 @@
 export const marbledConglomerate = [
   {
-    src: "/marbled-conglomerat/Fiorito(Venus).webp",
-    alt: "Fiorito(Venus)",
+    src: "/marbled-conglomerat/fiorito-venus.png",
+    alt: "Fiorito (Venus)",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify.webp",
+    src: "/marbled-conglomerat/rosa-del-garda.png",
     alt: "Rosa Del Garda",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(1).webp",
+    src: "/marbled-conglomerat/madreperla.png",
     alt: "Madreperla",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(2).webp",
+    src: "/marbled-conglomerat/perlato-royal.png",
     alt: "Perlato Royal",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(3).webp",
+    src: "/marbled-conglomerat/misty-white.png",
     alt: "Misty White",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(4).webp",
+    src: "/marbled-conglomerat/rosso-assiago.png",
     alt: "Rosso Assiago",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(5).webp",
+    src: "/marbled-conglomerat/carrara-micro.png",
     alt: "Carrara Micro",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(6).webp",
+    src: "/marbled-conglomerat/baltic-grey.webp",
     alt: "Baltic Grey",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(7).webp",
+    src: "/marbled-conglomerat/botticino.png",
     alt: "Botticino",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(8).webp",
+    src: "/marbled-conglomerat/bianco-neve-crystal white.png",
     alt: "Bianco Neve (Crystal White)",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(9).webp",
+    src: "/marbled-conglomerat/breccia-aurora.png",
     alt: "Breccia Aurora",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(10).webp",
+    src: "/marbled-conglomerat/ninfea-new-marfil.png",
     alt: "Ninfea (New Marfil)",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(12).webp",
-    alt: "Arctic White",
+    src: "/marbled-conglomerat/polare-arctic-white.png",
+    alt: "Polare/Arctic White",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(13).webp",
+    src: "/marbled-conglomerat/arabescato-bianco-calacatta.png",
     alt: "Arabescato Bianco (Calacatta)",
   },
   {
-    src: "/marbled-conglomerat/platinum-designify(14).webp",
+    src: "/marbled-conglomerat/fillo-brown.png",
     alt: "Fillo Brown",
+  },
+  {
+    src: "/marbled-conglomerat/bianco-ambra.png",
+    alt: "Bianco Ambra",
+  },
+  {
+    src: "/marbled-conglomerat/bianco-carrara.png",
+    alt: "Bianco Carrara",
+  },
+  {
+    src: "/marbled-conglomerat/bianco-ghiacio.png",
+    alt: "Bianco Ghiacio",
+  },
+  {
+    src: "/marbled-conglomerat/breccia-sarda.png",
+    alt: "Breccia Sarda",
+  },
+  {
+    src: "/marbled-conglomerat/fior-di-pesco.png",
+    alt: "Fior Di Pesco",
+  },
+  {
+    src: "/marbled-conglomerat/grigio-carnico.png",
+    alt: "Grigio Carnico",
+  },
+  {
+    src: "/marbled-conglomerat/napoleon.png",
+    alt: "Napoleon",
+  },
+  {
+    src: "/marbled-conglomerat/nero-portoro.png",
+    alt: "Nero Portoro",
+  },
+  {
+    src: "/marbled-conglomerat/sanna.png",
+    alt: "Sanna",
+  },
+  {
+    src: "/marbled-conglomerat/silk-grey.png",
+    alt: "Silk Grey",
   },
 ];
 
 export const steelConglomerate = [
+  {
+    src: "/steel-conglomerat/stal9006.png",
+    alt: "Standard RAL 9006",
+  },
+  {
+    src: "/steel-conglomerat/stal9007.png",
+    alt: "Standard RAL 9007",
+  },
+  {
+    src: "/steel-conglomerat/stal9010.png",
+    alt: "Standard RAL 9010",
+  },
   {
     src: "/steel-conglomerat/1.webp",
     alt: "Standard Orzech",
@@ -308,5 +360,67 @@ export const laminateConglomerate = [
   {
     src: "/laminate-conglomerat/Resize_laminatZlotyDab.webp",
     alt: "Laminat Złoty Dąb",
+  },
+];
+
+export const externalSynteticConglomerate = [
+  {
+    src: "/external-synthetic/braz.png",
+    alt: "Brąz",
+  },
+  {
+    src: "/external-synthetic/cegla.png",
+    alt: "Cegła",
+  },
+  {
+    src: "/external-synthetic/czarny.png",
+    alt: "Czarny",
+  },
+  {
+    src: "/external-synthetic/grafit.png",
+    alt: "Grafit",
+  },
+  {
+    src: "/external-synthetic/stal.png",
+    alt: "Stal",
+  },
+  {
+    src: "/external-synthetic/wisnia.png",
+    alt: "Wiśnia",
+  },
+];
+
+export const quartzGraniteConglomerate = [
+  {
+    src: "/quartz-granite/granit-solarius.jpg",
+    alt: "Granit Solarius",
+  },
+  {
+    src: "/quartz-granite/granit-star-galaxy.jpg",
+    alt: "Granit Star Galaxy",
+  },
+  {
+    src: "/quartz-granite/kwarc-carrara.jpg",
+    alt: "Kwarc Carrara",
+  },
+  {
+    src: "/quartz-granite/kwarc-cristal-white.jpg",
+    alt: "Kwarc Cristal White",
+  },
+  {
+    src: "/quartz-granite/kwarc-pure-black.jpg",
+    alt: "Kwarc Pure Black",
+  },
+  {
+    src: "/quartz-granite/kwarc-urban-grey.jpg",
+    alt: "Kwarc Urban Grey",
+  },
+  {
+    src: "/quartz-granite/wiscount-white.jpg",
+    alt: "Wiscount White",
+  },
+  {
+    src: "/quartz-granite/granit-uba-tuba-green.jpg",
+    alt: "Granit Uba Tuba Green",
   },
 ];
