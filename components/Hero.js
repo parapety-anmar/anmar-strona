@@ -59,6 +59,14 @@ export default function Hero() {
             </a>
           </div>
         </div>
+        <div className="flex justify-center my-8">
+          <Image
+            width={250}
+            height={250}
+            alt="laureat konkursu"
+            src="/laureate.jpg"
+          />
+        </div>
       </section>
     </>
   );

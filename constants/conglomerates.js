@@ -28,7 +28,7 @@ export const marbledConglomerate = [
     alt: "Carrara Micro",
   },
   {
-    src: "/marbled-conglomerat/baltic-grey.webp",
+    src: "/marbled-conglomerat/baltic-grey.png",
     alt: "Baltic Grey",
   },
   {
