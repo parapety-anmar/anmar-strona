@@ -60,12 +60,18 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex justify-center my-8">
-          <Image
-            width={250}
-            height={250}
-            alt="laureat konkursu"
-            src="/laureate.jpg"
-          />
+          <a
+            href="https://www.orlyokienidrzwi.pl/profile-528916-an-mar-parapety"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              width={250}
+              height={250}
+              alt="laureat konkursu"
+              src="/laureate.jpg"
+            />
+          </a>
         </div>
       </section>
     </>
